@@ -1,4 +1,4 @@
-FROM pulumi/pulumi-python:2.9.0
+FROM pulumi/pulumi-python:2.9.1
 
 ARG PYTHON_POETRY_VERSION=1.0.10
 
