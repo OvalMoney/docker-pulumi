@@ -1,6 +1,6 @@
-FROM pulumi/pulumi-python:2.10.0
+FROM pulumi/pulumi-python:2.11.2
 
-ARG PYTHON_POETRY_VERSION=1.0.10
+ARG PYTHON_POETRY_VERSION=1.1.0
 
 RUN apt-get update -y && apt-get install -y curl
 RUN curl -sSL https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py | \
